@@ -1,0 +1,660 @@
+#banner {
+  width: 85%;
+  height: 100%;
+}
+.banner{
+  margin-bottom: 4%;
+
+}
+#manifestoKV {
+  /* width: 75%;
+  height: 70%; */
+}
+
+.manifesto {
+  /* margin-top: -15% !important; */
+  /* margin-bottom: 5%; */
+}
+
+#doodle1 {
+  z-index: 10;
+  width: 25%;
+  display: flex;
+  transform: scaleX(-1);
+  margin-left: 76%;
+  margin-top: -7%;
+
+}
+
+#doodle2 {
+  z-index: 1;
+  width: 23%;
+  display: flex;
+  margin-left: 76%;
+}
+
+#doodle3 {
+
+  z-index: 15;
+    width: 22%;
+    display: flex;
+    /* margin-left: -100px; */
+    transform: rotate(-10deg);
+    margin-top: -7%;
+}
+#homeFikir{
+  margin-top: 4%;
+
+}
+
+#manifesto {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  text-align: center;
+  font-family: "GT Pressura" !important;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(103, 99, 108) !important;
+  text-decoration: none;
+  line-height: 160%;
+  letter-spacing: -1px;
+  margin-top: 1%;
+
+}
+#manifesto2 {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  text-align: center;
+  font-family: "GT Pressura" !important;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(103, 99, 108) !important;
+  text-decoration: none;
+  line-height: 160%;
+  letter-spacing: -1px;
+  margin-top: 0%;
+}
+
+#manifestoTitle {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: "Stick-A-Round";
+  color: rgba(230, 82, 68) !important;
+  font-size: 47px;
+}
+#manifestoTag{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: "Stick-A-Round";
+  color: rgba(230, 82, 68) !important;
+  font-size: 24px;
+  margin-top: -1%;
+}
+a:hover {
+  color: #fff;
+}
+#gonulluSanatciTitle {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: "Stick-A-Round";
+  color: rgba(230, 82, 68) !important;
+  font-size: 47px;
+  background-color: white;
+  margin-top: 4%;
+}
+#artistsKV {
+  /* width: 90%;
+  height: 100%;
+  margin-left: 18%; */
+  border: 15px solid white;
+  border-radius: 20px;
+}
+
+#gonulluArtist {
+  margin-top: -11% !important;
+}
+
+#volunteerArtistText {
+  width: 75%;
+  justify-content: center;
+  /* align-items: center; */
+  display: flex;
+  /* text-align: revert; */
+  font-family: "GT Pressura" !important;
+  color: rgba(102, 91, 192) !important;
+  font-family: "GT Pressura" !important;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(103, 99, 108) !important;
+  text-decoration: none;
+  line-height: 130%;
+  /* letter-spacing: -1px; */
+  margin-top: 0%;
+}
+
+#volunteerArtistHeader {
+  width: 70%;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* display: flex; */
+  /* text-align: center; */
+  font-family: "Stick-A-Round" !important;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(102, 91, 192) !important;
+  text-decoration: none;
+  line-height: 160%;
+  letter-spacing: 0px;
+  margin-top: 7%;
+}
+
+.discover {
+  margin-top: -6% !important;
+}
+
+.fikirGroup{
+  padding: 0% 13% 5% 13% !important;
+  margin-top: 0%;
+}
+.fikirCard{
+  border: none !important;
+  padding: 1%;
+}
+.downloadButton{
+  font-size: 29px;
+  text-align: center;
+  justify-content: center;
+  font-family: "Stick-A-Round";
+  text-decoration: none;
+  border-style: solid;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(230, 82, 68);
+  line-height: 12px;
+  letter-spacing: 0px;
+  /* border-color: rgba(103, 99, 108); */
+  border-width: 0px;
+  border-radius: 8px;
+  height: 52px;
+  width: 40%;
+}
+.carousel {
+  position: relative;
+  width: 61% !important;
+  height: 80%;
+  display: inline-block;
+  justify-content: center;
+}
+
+.discoverMoreButton {
+  font-size: 25px;
+    /* text-align: center; */
+    /* justify-content: center; */
+    font-family: "Stick-A-Round";
+    /* text-decoration: none; */
+    /* border-style: solid; */
+    /* font-weight: 400; */
+    /* font-style: normal; */
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(230, 82, 68);
+    line-height: 12px;
+    letter-spacing: 0px;
+    border-color: rgba(103, 99, 108);
+    border-width: 0px;
+    border-radius: 30px;
+    box-shadow: 1px 3px 3px 0px rgb(152 26 33);
+    margin-left: -25%;
+    height: 52px;
+    width: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+#discoverAllButton {
+  font-size: 29px;
+  text-align: center;
+  justify-content: center;
+  font-family: "Stick-A-Round";
+  text-decoration: none;
+  border-style: solid;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(230, 82, 68);
+  line-height: 12px;
+  letter-spacing: 0px;
+  border-color: rgba(103, 99, 108);
+  border-width: 0px;
+  border-radius: 30px;
+  box-shadow: 1px 3px 3px 0px rgb(152 26 33);
+  height: 52px;
+  width: 17%;
+  margin-top: 1%;
+}
+
+.fikirKutuphanesiText {
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  text-align: center;
+  font-family: "GT Pressura" !important;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(103, 99, 108) !important;
+  text-decoration: none;
+  line-height: 120%;
+  letter-spacing: -1px;
+  margin-top: 0%;
+}
+#fikirTitleText {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: "Stick-A-Round";
+  color: rgba(230, 82, 68) !important;
+  margin-bottom: 2% !important;
+  margin-top: 2% !important;
+  font-size: 25px !important;
+}
+#firstDownload{
+  height: 85%;
+}
+
+#discoverHomeText {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  font-family: "GT Pressura" !important;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(103, 99, 108) !important;
+}
+
+#discoverTitle {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: "Stick-A-Round";
+  color: rgba(230, 82, 68) !important;
+  margin-bottom: 1%;
+  font-size: 47px;
+}
+
+.fikirKutuphanesi {
+  margin-bottom: 5%;
+  margin-top: -12%;
+}
+#fikirKutuphanesiHeader {
+    /* align-items: center; */
+    display: flex;
+    /* text-align: center; */
+    font-family: "Stick-A-Round" !important;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: bold;
+    color: rgba(230, 82, 68) !important;
+    text-decoration: none;
+    line-height: 160%;
+    letter-spacing: 0px;
+    margin-top: 8%;
+    margin-left: 29%;
+    margin-bottom: -3% !important;
+}
+#fikirKutuphanesiTitle {
+  margin-bottom: 1%;
+  margin-top: -12%;
+  font-family: "Stick-A-Round";
+  color: rgba(230, 82, 68) !important;
+  font-size: 47px;
+}
+
+#fikirKV {
+  width: 90%;
+  height: 100%;
+  margin-left: 18%;
+}
+#gonulluColumn{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3%;
+  background: rgb(246, 201, 81);
+
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel {
+    position: relative;
+    width: 80% !important;
+    height: 70%;
+    display: inline-block;
+    justify-content: center;
+  }
+
+  #banner {
+    width: 100%;
+    height: 100%;
+  }
+.banner{
+  margin-bottom: 1%;
+}
+  #doodle1 {
+    z-index: 10;
+    width: 25%;
+    display: flex;
+    transform: scaleX(-1);
+    display: none;
+    margin-left: 76%;
+    margin-top: -4%;
+  }
+
+  #doodle2 {
+    z-index: -1;
+    width: 22%;
+    display: none;
+    margin-left: 85%;
+  }
+
+  #doodle3 {
+    z-index: -1;
+    width: 19%;
+    display: none;
+    margin-left: -120px;
+  }
+
+  #artistsKV {
+       /* height: 100%; */
+    /* margin-left: 18%; */
+    width: -webkit-fill-available;
+    /* margin-left: 0%; */
+    border: 9px solid white;
+    margin-bottom: 2%;
+
+}
+
+#fikirKutuphanesiText {
+  width: 93%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: "GT Pressura" !important;
+  font-size: 16px;
+  line-height: 23px;
+  margin-top: 1%;
+  margin-left: 3% !important;
+}
+  #fikirKutuphanesi {
+    margin-bottom: 5%;
+  }
+
+  #fikirKV {
+  
+      /* height: 100%; */
+      /* margin-left: 18%; */
+      width: -webkit-fill-available;
+      margin-left: 0%;
+  
+  
+  }
+
+  #volunteerArtistText {
+    width: 99%;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    text-align: center;
+    font-family: "GT Pressura" !important;
+    font-size: 18px;
+    line-height: 23px;
+    margin-left: 0% !important;
+    margin-top: 0%;
+}
+
+  #gonulluArtist {
+    margin-bottom: 4% !important;
+    margin-top: 1% !important;
+    background: rgb(246, 201, 81);
+
+    }
+
+  .discover {
+    margin-top: 5% !important;
+  }
+
+  .manifesto {
+    margin-top: 10% !important;
+  }
+
+  #manifestoKV {
+    width: 80%;
+    height: 80%;
+    margin-bottom: 4%;
+  }
+
+  #manifesto {
+    width: 98%;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    text-align: center;
+    font-family: "GT Pressura" !important;
+    font-size: 18px;
+  }
+  #manifesto2 {
+    width: 91%;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    text-align: center;
+    font-family: "GT Pressura" !important;
+    font-size: 18px;
+    line-height: 23px;
+margin-bottom: 3%;
+  }
+
+  #discoverHomeText {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-family: "GT Pressura" !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(103, 99, 108) !important;
+  }
+
+  .discoverMoreButton {
+    font-size: 22px;
+    text-align: center;
+    justify-content: center;
+    font-family: "Stick-A-Round";
+    text-decoration: none;
+    border-style: solid;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(230, 82, 68);
+    line-height: 12px;
+    letter-spacing: 0px;
+    border-color: rgba(103, 99, 108);
+    border-width: 0px;
+    border-radius: 30px;
+    box-shadow: 1px 3px 3px 0px rgb(152 26 33);
+    margin-left: 0px;
+    height: 43px;
+    width: 53%;
+    margin-bottom: 5%;
+  }
+
+  #discoverAllButton {
+    font-size: 22px;
+    text-align: center;
+    justify-content: center;
+    font-family: "Stick-A-Round";
+    text-decoration: none;
+    border-style: solid;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(230, 82, 68);
+    line-height: 12px;
+    letter-spacing: 0px;
+    border-color: rgba(103, 99, 108);
+    border-width: 0px;
+    border-radius: 30px;
+    box-shadow: 1px 3px 3px 0px rgb(152 26 33);
+    height: 43px;
+    width: 60%;
+  }
+
+  .fikirKutuphanesi {
+    margin-bottom: 10%;
+    margin-top: 13% !important;
+  }
+  #volunteerArtistHeader {
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    display: contents;
+    text-align: center;
+    font-family: "Stick-A-Round" !important;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(102, 91, 192) !important;
+    text-decoration: none;
+    line-height: 130%;
+    letter-spacing: 0px;
+  
+}
+#gonulluColumn{
+  display: contents;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3%;
+  background: rgb(246, 201, 81);
+
+}
+#fikirKutuphanesiHeader {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  font-family: "Stick-A-Round" !important;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: bold;
+  color: rgba(230, 82, 68) !important;
+  text-decoration: none;
+  line-height: 160%;
+  letter-spacing: 0px;
+  margin-top: 4% !important;
+  margin-left: 0% !important;
+  margin-bottom: 0% !important;
+}
+.fikirKutuphanesiText {
+  width: 90%;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* display: inline-flex; */
+  text-align: center;
+  font-family: "GT Pressura" !important;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(103, 99, 108) !important;
+  text-decoration: none;
+  line-height: 130%;
+  letter-spacing: 0px;
+  margin-top: 0%;
+}
+#firstDownload {
+  height: 60% !important;
+}
+.fikirCard{
+  border: 5px solid rgb(246, 201, 81)!important;
+  border-radius: 10px !important;
+  margin: -1%;
+  padding: 1%;
+}
+#fikirKutuphanesiTitle {
+  margin-bottom: 1%;
+  margin-top: 2%;
+  font-family: "Stick-A-Round";
+  color: rgba(230, 82, 68) !important;
+  font-size: 47px;
+}
+.fikirGroup {
+  padding: 1% 4% 0% 4% !important;
+  /* margin-top: 5% !important; */
+  display: flex;
+  margin-top: 3% !important;
+}
+#fikirTitleText {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: "Stick-A-Round";
+  color: rgba(230, 82, 68) !important;
+  margin-bottom: -2% !important;
+  font-size: 22px !important;
+
+}
+
+.downloadButton {
+  font-size: 13px;
+  text-align: center;
+  justify-content: center;
+  font-family: "Stick-A-Round";
+  text-decoration: none;
+  border-style: solid;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(230, 82, 68);
+  line-height: 15px;
+  letter-spacing: 0px;
+  border-width: 0px;
+  border-radius: 8px;
+  height: 24px;
+  width: 78%;
+  margin-top: -1% !important;
+  display: revert;
+}
+#gonulluSanatciTitle {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: "Stick-A-Round";
+  color: rgba(230, 82, 68) !important;
+  font-size: 47px;
+  background-color: white;
+  margin-top: 0%;
+}
+}

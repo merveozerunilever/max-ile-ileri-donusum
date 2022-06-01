@@ -1,0 +1,10 @@
+#projeHakkindaTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Stick-A-Round";
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: rgba(230, 82, 68) !important;
+    }

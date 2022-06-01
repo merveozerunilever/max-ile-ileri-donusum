@@ -1,0 +1,472 @@
+.kesfet {
+  padding: 0% 10% !important;
+}
+
+#manifestoTagPage {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: "Stick-A-Round";
+  color: rgba(230, 82, 68) !important;
+  font-size: 52px;
+  margin-top: 2%;
+}
+
+#manifestoKesfet {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  text-align: center;
+  font-family: "GT Pressura" !important;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(103, 99, 108) !important;
+  text-decoration: none;
+  line-height: 160%;
+  letter-spacing: -1px;
+  margin-top: 1%;
+}
+
+#titleText {
+  display: flex;
+  margin-top: 5%;
+  font-family: "Stick-A-Round";
+  color: rgba(230, 82, 68) !important;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 51px;
+  margin-bottom: 2%;
+}
+
+#gonulluAd {
+  border: none;
+}
+
+.gonulluArtist {
+  display: flex;
+}
+
+.meslekler {
+  font-size: 23px !important;
+  font-family: "Stick-A-Round";
+  color: rgba(230, 82, 68) !important;
+  padding: 1% 5% 1% 2%;
+}
+
+.projectName {
+  font-size: 23px !important;
+  color: gray;
+  display: flex;
+  font-family: "Stick-A-Round";
+  margin-top: 1%;
+}
+
+.card-title {
+  font-size: 30px !important;
+  font-family: "Stick-A-Round";
+  color: rgba(230, 82, 68) !important;
+  display: flex;
+  margin-bottom: -2% !important;
+}
+
+.card-text {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  font-family: "GT Pressura";
+  font-size: 15px;
+  width: 100%;
+  font-family: "GT Pressura" !important;
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(103, 99, 108) !important;
+  margin-bottom: 1%;
+}
+
+.card-body {
+  margin: 1.5% 3% 1% 4%;
+  padding: 0% !important;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card-link {
+  font-size: 18px !important;
+  font-family: "GT Pressura" !important;
+  color: rgba(103, 99, 108);
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  text-decoration: none;
+}
+
+#instaLogo {
+  height: 1.5em;
+  width: 1.5em;
+  color: black !important;
+}
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: none !important;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: 1rem;
+  margin-left: 15%;
+  list-style: none;
+}
+
+.carousel {
+  position: relative;
+  width: 50%;
+  height: 50%;
+  display: inline-block;
+  justify-content: center;
+  padding: -1% !important;
+}
+
+.kesfetGroup {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center !important;
+}
+
+.card {
+  width: 61%;
+  border: none !important;
+}
+
+.peopleWorks {
+  margin-bottom: 6%;
+  margin-top: 3%;
+}
+
+.carousel-item {
+  position: relative;
+  display: none;
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  backface-visibility: hidden;
+  transition: none !important;
+}
+
+.kesfetCard {
+  margin: 1%;
+}
+
+#simaybahcivan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 20% 0% 20% 0%;
+}
+
+#burakbeceren {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 15% 0% 15% 0%;
+}
+
+#uguracil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 15% 0% 15% 0%;
+}
+
+#gokcegirgin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 20% 0% 20% 0%;
+}
+
+#artemisgunebakanli {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 12% 0% 12% 0%;
+}
+
+#mertdolapcioglu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 20% 0% 20% 0%;
+}
+
+#eceagirtmis {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 15% 0% 14% 0%;
+}
+
+#dilaraakbal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 18% 0% 18% 0%;
+}
+
+#firatneziroglu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 17% 0% 16% 0%;
+}
+
+#bulentgultek {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 18% 0% 20% 0%;
+}
+
+#elifatmaca {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 3% 0% 3% 0%;
+}
+
+#salihkucuktuna {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 1% 0% 1% 0%;
+}
+
+@media only screen and (max-width: 600px) {
+ 
+  .card-body {
+    flex: none !important;
+    margin: 3%;
+  }
+
+  .card {
+    width: 100% !important;
+    border: none !important;
+  }
+
+  .names {
+    margin-top: 10px;
+    margin-bottom: -4.5rem;
+    font-size: 24px;
+    font-family: "GT Pressura";
+  }
+
+  .kesfetGroup {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center !important;
+  }
+
+  .carousel {
+    position: relative;
+    width: 95% !important;
+    display: inline-block;
+    justify-content: center;
+  }
+
+  .gonulluArtist {
+    display: block;
+    margin-bottom: 11%;
+    border: 3px solid rgb(246, 201, 81);
+    border-radius: 10px;
+    border-style: dashed;
+  }
+
+  .kesfet {
+    padding: 0% 10% !important;
+  }
+
+  #manifestoTagPage {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: "Stick-A-Round";
+    color: rgba(230, 82, 68) !important;
+    font-size: 44px;
+    margin-top: 0%;
+  }
+
+  #manifestoKesfet {
+    width: 96%;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    text-align: center;
+    font-family: "GT Pressura" !important;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(103, 99, 108) !important;
+    text-decoration: none;
+    line-height: 160%;
+    letter-spacing: -1px;
+    margin-top: 0%;
+  }
+
+  #titleText {
+    display: flex;
+    margin-top: 5%;
+    font-family: "Stick-A-Round";
+    color: rgba(230, 82, 68) !important;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 37px;
+    margin-bottom: 2%;
+  }
+
+  .card-title {
+    display: inline-grid !important;
+    justify-content: center;
+  }
+
+  .projectName {
+    display: flex;
+    justify-content: center;
+    margin-top: 1% !important;
+  }
+
+  .card-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .card-link {
+    font-size: 18px !important;
+    font-family: "GT Pressura" !important;
+    color: rgba(103, 99, 108);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .meslekler {
+    font-size: 20px !important;
+  }
+
+  #simaybahcivan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0%;
+  }
+
+  #burakbeceren {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0%;
+  }
+
+  #uguracil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0%;
+  }
+
+  #gokcegirgin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0%;
+  }
+
+  #artemisgunebakanli {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0%;
+  }
+
+  #mertdolapcioglu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0%;
+  }
+
+  #eceagirtmis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0%;
+  }
+
+  #dilaraakbal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0%;
+  }
+
+  #firatneziroglu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0%;
+  }
+
+  #bulentgultek {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0%;
+  }
+  #elifatmaca {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0%;
+  }
+  #salihkucuktuna {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0%;
+  }
+}

@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Stick-A-Round";
+  src: url(test1.woff);
+}
+
+div {
+  font-family: "Stick-A-Round";
+}
+  
+@font-face {
+  font-family: "GT Pressura";
+  src: url(GT-Pressura-Regular.woff);
+}
+
+div {
+  font-family: "GT Pressura";
+}
+
+.App {
+  text-align: center;
+  overflow-x: hidden;
+
+}
+.container{
+  padding: 0% !important;
+    margin: 0% !important;
+    display: inline;
+    overflow-x: hidden;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-image: url('https://www.google.com/search?q=maymun+icon&rlz=1C1GCEU_enTR1000TR1002&source=lnms&tbm=isch&sa=X&ved=2ahUKEwik87mb0Lf3AhVtRvEDHVLvAbEQ_AUoAXoECAEQAw#imgrc=fCtnXlKV5yqvyM');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

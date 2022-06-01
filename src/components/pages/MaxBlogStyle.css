@@ -1,0 +1,259 @@
+#MaxBlogText {
+  display: grid;
+}
+
+.blogs {
+  margin-top: 5% !important;
+}
+
+.blogCard {
+  margin: 2%;
+}
+
+.blogGroup {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center !important;
+  margin-bottom: 5%;
+}
+
+.maxBlogCard{
+  width: 100% !important;
+}
+
+.lastBlog {
+  margin-top: 3% !important;
+  width: 100%;
+}
+
+.bloglar {
+  display: flex;
+  padding: 0% 19% !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.maxBody {
+  flex: none !important;
+}
+
+.maxBloglar {
+  margin-top: 3% !important;
+  margin-bottom: 3%;
+}
+
+.card-img-overlay {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  border-radius: calc(0.25rem - 1px);
+  align-items: center;
+}
+
+.devaminiOku {
+  background-color: rgb(230, 82, 68);
+  width: 45% !important;
+  font-family: "Stick-A-Round";
+  color: white;
+  font-size: 36px;
+  text-decoration: none;
+  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 52px;
+  font-size: 30px;
+}
+
+.devaminiOkuGuncel {
+  background-color: rgb(230, 82, 68);
+  width: 35% !important;
+  font-family: "Stick-A-Round";
+  color: white;
+  font-size: 36px;
+  text-decoration: none;
+  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 52px;
+  font-size: 30px;
+}
+
+#manifestoBlog{
+  margin: 5%;
+}
+
+.guncelBlogText {
+  color: rgb(103, 99, 108) !important;
+  font-size: 16px !important;
+  width: 100%;
+  font-weight: 400 !important;
+  font-family: "GT Pressura" !important;
+}
+
+.guncelBlogTitle{
+  color: rgb(230, 82, 68) !important;
+  font-size: 27px !important;
+  width: 100%;
+  text-align: left;
+  margin: 2% 0% 2% 0% !important;
+}
+
+.guncelBlog{
+  width: 100% !important;
+}
+
+.guncelText {
+  color: #fff !important;
+  font-size: 20px !important;
+  width: 70%;
+  font-weight: 400 !important;
+  font-family: "GT Pressura" !important;
+}
+
+.guncelTitle{
+  color: #fff !important;
+  font-size: 56px !important;
+  width: 60%;
+  text-align: left;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 1.25rem;
+  left: 15%;
+  top: 35%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff !important;
+  text-align: center;
+  width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  #MaxBlogText {
+    display: grid;
+  }
+
+  .bloglar {
+    display: inline-grid;
+    padding: 0% 20% !important;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(246, 201, 81);
+    border-radius: 10px;
+    border-style: dashed;
+    margin: 0% !important;
+    padding: 0% !important;
+    margin-bottom: 3% !important;
+}
+
+.maxBloglar {
+  margin-top: 3% !important;
+  margin-bottom: 3%;
+  padding: 3% !important; 
+}
+
+.guncelTitle {
+    color: #fff!important;
+    font-size: 16px!important;
+    text-align: left!important;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 0% !important;
+  left: 15%;
+  top: 3%;
+  padding-top: 0% !important;
+  padding-bottom: 0% !important;
+  margin-bottom: 0% !important;
+  color: #fff !important;
+  text-align: center;
+  width: 50%;
+  display: grid;
+}
+
+.guncelText {
+    color: #fff!important;
+    font-family: GT Pressura!important;
+    font-size: 12px!important;
+    font-weight: 400!important;
+    /* margin-bottom: 2%!important; */
+    text-align: left!important;
+    width: 100%;
+}
+.devaminiOkuGuncel {
+    align-items: center;
+    background-color: #e65244;
+    border-radius: 9px;
+    color: #fff;
+    display: flex;
+    font-family: Stick-A-Round;
+    font-size: 36px;
+    font-size: 18px;
+    height: 20px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    width: 50%!important;
+}
+
+.guncelBlogText {
+  color: rgb(103, 99, 108) !important;
+  font-size: 15px !important;
+  width: 100%;
+  font-weight: 400 !important;
+  font-family: "GT Pressura" !important;
+  display: flex;
+  text-align: center;
+}
+
+.guncelBlogTitle {
+  color: rgb(230, 82, 68) !important;
+  font-size: 26px !important;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.devaminiOku {
+  background-color: rgb(230, 82, 68);
+  width: 45% !important;
+  font-family: "Stick-A-Round";
+  color: white;
+  font-size: 36px;
+  text-decoration: none;
+  border-radius: 9px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 47px;
+  font-size: 30px;
+  display: inline-flex;
+}
+
+#manifestoBlog {
+  margin: 0%; 
+  width: 100%;
+  margin-top: 3%;
+}
+
+.blogGorsel{
+  width: 100%;
+}
+
+}

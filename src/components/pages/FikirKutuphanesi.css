@@ -1,0 +1,93 @@
+#fikirKutuphanesiTabTitle {
+  margin-bottom: 1%;
+  margin-top: 1%;
+  font-family: "Stick-A-Round";
+  color: rgba(230, 82, 68) !important;
+  font-size: 47px;
+}
+
+.fikirKutuphanesiTabText {
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  text-align: center;
+  font-family: "GT Pressura" !important;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(103, 99, 108) !important;
+  text-decoration: none;
+  line-height: 120%;
+  letter-spacing: -1px;
+  margin-top: 0%;
+}
+
+.fikirTabGroup {
+  padding: 2% 12% 5% 12% !important;
+}
+
+.fikirTabTitleText {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: "Stick-A-Round";
+  color: rgba(230, 82, 68) !important;
+  margin-bottom: 0% !important;
+  font-size: 30px !important;
+  margin: 3%;
+}
+
+#fikirDownload {
+  height: 85%;
+}
+
+#comingSoonText {
+  font-family: "Stick-A-Round";
+  color: rgba(103, 99, 108) !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .fikirKutuphanesiTabText {
+    width: 97%;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    text-align: center;
+    font-family: "GT Pressura" !important;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(103, 99, 108) !important;
+    text-decoration: none;
+    line-height: 120%;
+    letter-spacing: -1px;
+    margin-top: 0%;
+  }
+
+  #fikirDownload {
+    height: 50%;
+  }
+
+  .fikirTabGroup {
+    padding: 5% !important;
+    display: inline-flex;
+  }
+  .fikirTabTitleText {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: "Stick-A-Round";
+    color: rgba(230, 82, 68) !important;
+    margin-bottom: 2% !important;
+    font-size: 28px !important;
+  }
+
+  #comingSoonText {
+    font-family: "Stick-A-Round";
+    color: rgba(103, 99, 108) !important;
+  }
+  
+}

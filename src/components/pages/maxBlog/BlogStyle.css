@@ -1,0 +1,156 @@
+.blogTitleText {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: "Stick-A-Round";
+  color: rgba(230, 82, 68) !important;
+  margin-bottom: 1%;
+  margin-top: 5% !important;
+}
+
+.blogContentText {
+  text-align: justify;
+  font-family: "GT Pressura";
+  width: 65%;
+  display: -webkit-inline-box;
+  padding: 1%;
+  font-weight: 400 !important;
+  color: rgba(103, 99, 108) !important;
+}
+
+.blog4 {
+  font-family: "GT Pressura" !important;
+  display: flex;
+  justify-content: center;
+  padding: 1% 0% 1% 0%;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgba(103, 99, 108) !important;
+}
+
+.blogContentTexts {
+  text-align: justify;
+  font-family: "GT Pressura";
+  width: 100%;
+  display: -webkit-inline-box;
+  padding: 1%;
+  margin-bottom: 3%;
+  font-weight: 400 !important;
+  color: rgba(103, 99, 108) !important;
+}
+
+.listArticle {
+  text-align: justify;
+  font-family: "GT Pressura";
+  width: 66%;
+  display: inline-grid;
+  font-weight: bold;
+  color: rgba(103, 99, 108) !important;
+}
+
+.kaynakca {
+  text-align: justify;
+  font-family: "GT Pressura";
+  font-weight: bold;
+  padding: 3% 15% 3% 15% !important;
+}
+
+.gorselAciklama {
+  justify-content: center;
+  font-family: "GT Pressura" !important;
+  font-size: 18px;
+  font-style: italic;
+}
+
+#blog1 {
+  width: 80%;
+  height: 80%;
+  margin-top: 5%;
+}
+
+#blog2 {
+  width: 80%;
+  height: 80%;
+  margin-top: 5%;
+}
+
+#blog3 {
+  width: 80%;
+  height: 80%;
+  margin-top: 5%;
+}
+
+.blogAsset {
+  width: 50%;
+  margin: 1%;
+}
+.cokluAsset {
+  width: 50%;
+  margin: 1%;
+}
+
+#blog1{
+  display: flex;
+}
+#asta{
+  display: flex;
+  justify-content: flex-start;
+  width: 70%;
+}
+.hila{
+  display: flex;
+  justify-content: flex-start;
+  width: 95%;
+}
+.katarzyna{
+  display: flex;
+  justify-content: flex-start;
+  width: 95%;
+}
+@media only screen and (max-width: 600px) {
+  .blogContentText {
+    font-family: "GT Pressura";
+    width: 98%;
+    display: -webkit-inline-box;
+  }
+
+  .listArticle {
+    text-align: justify;
+    font-family: "GT Pressura";
+    width: 95%;
+    display: inline-grid;
+    padding: 0%;
+
+  }
+  .blogAsset {
+    width: 96%;
+    margin: 1%;
+}
+  .kaynakca {
+    text-align: justify;
+    font-family: "GT Pressura";
+    font-weight: bold;
+    padding: 4% !important;
+    margin: 0% !important;
+  }
+
+  .blog4 {
+    font-family: "GT Pressura" !important;
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    font-weight: bold;
+    font-size: 19px;
+    margin-top: 2%;
+
+  }
+  
+  .gorselAciklama {
+    justify-content: center;
+    font-family: "GT Pressura" !important;
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 1%;
+  }
+}

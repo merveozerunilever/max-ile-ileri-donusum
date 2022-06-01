@@ -1,0 +1,91 @@
+.SSS {
+  display: grid;
+  justify-content: center;
+  margin: 0% 10% 0% 10%;
+  width: 90% !important;
+}
+
+#sssTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Stick-A-Round";
+  margin-top: 3%;
+  margin-bottom: 3%;
+  color: rgba(230, 82, 68) !important;
+}
+
+.hyperLink {
+  text-decoration: none;
+  color: rgba(230, 82, 68) !important;
+  font-weight: bold;
+}
+
+.questions {
+  font-family: "Stick-A-Round";
+  font-size: 28px;
+  margin-bottom: 1%;
+  display: inline-flex;
+  color: rgba(230, 82, 68) !important;
+}
+
+.answers {
+  font-family: "GT Pressura" !important;
+  font-weight: normal;
+  font-size: 18px;
+  display: inherit;
+  text-align: initial;
+  margin-bottom: 4%;
+  width: 90% !important;
+  color: rgba(103, 99, 108) !important;
+}
+
+#sssT {
+  width: 90%;
+  font-family: "GT Pressura" !important;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(103, 99, 108) !important;
+  text-decoration: none;
+  line-height: 160%;
+  letter-spacing: -1px;
+  margin-bottom: 2%;
+}
+
+@media only screen and (max-width: 600px) {
+  .SSS {
+    display: grid;
+    justify-content: center;
+    margin: auto;
+    width: 90% !important;
+  }
+
+  .questions {
+    font-family: "Stick-A-Round";
+    font-size: 22px;
+    margin-bottom: 1%;
+    display: flex;
+    text-align: start;
+  }
+
+  .answers {
+    width: 98% !important;
+    font-size: 16px;
+  }
+  
+  #sssT {
+    width: 100%;
+    font-family: "GT Pressura" !important;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(103, 99, 108) !important;
+    text-decoration: none;
+    line-height: 160%;
+    letter-spacing: -1px;
+    margin-bottom: 5%;
+}
+
+}
