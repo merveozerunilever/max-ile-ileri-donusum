@@ -274,7 +274,7 @@ function Kesfet() {
                 Salİh Küçüktuna
                 <div className="meslekler">/ MİMARİ Tasarım</div>
               </Card.Title>
-              <div className="projectName"> Flexigon</div>
+              <div className="projectName"> FLEXIGON</div>
               <Card.Text id="salihkucuktuna" >
                 "İleri dönüşüm hareketinin temel bileşeni olan yeniden
                 değerlendirilebilir atıklar ile günümüz teknolojileri, maker ve
@@ -406,7 +406,7 @@ function Kesfet() {
                 Mert Dolapçıoğlu{" "}
                 <div className="meslekler">/ Karikatürist </div>
               </Card.Title>
-              <div className="projectName"> kedi sevgisi</div>
+              <div className="projectName"> KEDİ SEVGİSİ</div>
               <Card.Text id="mertdolapcioglu">
                 "Bu tasarımda kalp tutan sevimli bir kedi yaptım. Sokakta
                 yaşayan dostlarımızı asla unutmamak görevlerimiz arasında
@@ -474,7 +474,7 @@ function Kesfet() {
                   / İllüstratör, Oyuncak Tasarımcısı{" "}
                 </div>
               </Card.Title>
-              <div className="projectName"> Mini Dragon</div>
+              <div className="projectName"> MİNİ Dragon</div>
               <Card.Text id="eceagirtmis">
                 Mini dragon: Daha önce yaptığım en büyük ölçülü işlerden olan
                 ejderhadan sonra benzerinin küçük ölçekte nasıl olacağını merak
