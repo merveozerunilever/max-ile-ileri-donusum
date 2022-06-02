@@ -15,13 +15,13 @@ function NavMenu() {
       <div className="navMenu">
         <Nav.Link href="/">{manifestoNav}</Nav.Link>
         <Nav.Link href="kesfet">{discover}</Nav.Link>
-<a href="/">
+<Nav.Link href="/">
         <img
           src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/fe961ef6167644598d2c609f38dc02ed?v=7761b041"
           className="logo"
           alt="Max ile Ileri Donusum Logo"
         />
-            </a>
+            </Nav.Link>
         <Nav.Link href="fikir-kutuphanesi">{FikirKutuphanesiTitle}</Nav.Link>
         <Nav.Link href="max-blog">{maxBlogTitle}</Nav.Link>
       </div>
