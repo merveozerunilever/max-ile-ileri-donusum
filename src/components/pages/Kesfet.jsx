@@ -210,21 +210,21 @@ function Kesfet() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/7558329811ea491ba433e0f77a7bbb23?v=1b3d9f45"
+                src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/6f3641f5653240ca82217398a5528e0f?v=fa76a29e"
                 alt="Uğur Acil-1"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/c2b6ece587e441eda50e9233ee00bb65?v=cccfd884"
+                src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/04ce9b4da56747bf8c76eb42cbc30257?v=7bd58ab2"
                 alt="Uğur Acil-2"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/d755f6056f184b02a1b8a0102afa8093?v=07b55ef5"
+                src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/eefca4d365cf4240ba96fe2ec809960e?v=2924d2a0"
                 alt="Uğur Acil-3"
               />
             </Carousel.Item>
@@ -272,7 +272,7 @@ function Kesfet() {
             <Card.Body>
               <Card.Title>
                 Salİh Küçüktuna
-                <div className="meslekler">/ Mimari Tasarım</div>
+                <div className="meslekler">/ MİMARİ Tasarım</div>
               </Card.Title>
               <div className="projectName"> Flexigon</div>
               <Card.Text id="salihkucuktuna" >
