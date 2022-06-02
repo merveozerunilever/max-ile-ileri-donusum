@@ -108,14 +108,14 @@ function MaxBlog() {
       <div className="maxBloglar">
         <div className="bloglar">
           <Card>
-            <a href={"/max-blog-dunyadan-yaratici-ileri-donusum-ornekleri"}>
+          
               <img
                 variant="top"
                 className="blogGorsel"
                 src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/bcac9dccd1fd4050af93ceaf9d0fedb9?v=d8087cf4"
                 alt="Dünyadan Yaratıcı İleri Dönüşüm Örnekleri"
               />{" "}
-            </a>
+           
           </Card>
           <Card className="maxblogCard">
             <Card.Body className="maxBody">
