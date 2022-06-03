@@ -308,7 +308,7 @@ function Kesfet() {
                 Gökçe İrten Girgin{" "}
                 <div className="meslekler">/ Sanatçı, İllüstratör, Yazar</div>
               </Card.Title>
-              <div className="projectName"> Heykel İnsanlar</div>
+              <div className="projectName">TWıNS</div>
               <Card.Text id="gokcegirgin">
                 "Yeni bir ürün üretirken eskiden faydalanmak bana kendimi iyi
                 hissettiriyor. Üretilene başka bir misyon katıyor. Eskinin
