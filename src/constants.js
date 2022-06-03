@@ -2,7 +2,7 @@ export const manifestoTitle = "MANİFESTOMUZ";
 export const manifestoNav = "MANİFESTO";
 export const manifestoTag = "#MAXİLEİLERİDÖNÜŞÜM";
 export const manifestoText =
-  " Algida Max ile ileri dönüşüm yolcuğu, her gün dondurmalarının tadına bakan milyonlarca kişiye dondurma çubuklarının atıktan uçağa, kalemliğe, kuş yuvasına ve daha onlarca fikre nasıl dönüşebilececeği konusunda ilham vermeyi amaçlar ve tüm ebeveyn ve çocuklarını daha sürdürülebilir bir dünya için ileri dönüşüm odağında OYUNA davet eder. ";
+  " Algida Max ile ileri dönüşüm yolculuğu, her gün dondurmalarının tadına bakan milyonlarca kişiye dondurma çubuklarının atıktan uçağa, kalemliğe, kuş yuvasına ve daha onlarca fikre nasıl dönüşebilececeği konusunda ilham vermeyi amaçlar ve tüm ebeveyn ve çocuklarını daha sürdürülebilir bir dünya için ileri dönüşüm odağında OYUNA davet eder. ";
 export const manifestoText2 =
   "Bir dondurma çubuğu sadece bir dondurma çubuğu değildir!";
 export const manifestoText3 =
