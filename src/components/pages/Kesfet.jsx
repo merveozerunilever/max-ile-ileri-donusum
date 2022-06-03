@@ -471,7 +471,7 @@ function Kesfet() {
               <Card.Title>
                 Ece Ağırtmış{" "}
                 <div className="meslekler">
-                  / SANATÇI{" "}
+                  / SANATÇı{" "}
                 </div>
               </Card.Title>
               <div className="projectName"> MİNİ Dragon</div>
