@@ -86,7 +86,15 @@ function FikirKutuphanesi() {
       </CardGroup>
       <CardGroup></CardGroup>
       <div id="fikirKutuphanesiTabTitle">VİDEOLAR</div>
-      <h2 id="comingSoonText">{comingSoonText}</h2>
+<div className="videos">
+<div className="embed-responsive embed-responsive-16by9">
+  <div className="yt">
+      <iframe title="Embeds Page" className="embed-responsive-item" src="https://www.youtube.com/embed/gvXBM7Q-7JQ"
+        allowfullscreen></iframe>
+        </div>
+    </div>  
+</div>
+
     </>
   );
 }
