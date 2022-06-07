@@ -108,6 +108,25 @@
   justify-content: flex-start;
   width: 95%;
 }
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0% !important; 
+  margin-bottom:0% !important; 
+  list-style: none;
+  font-family: GT Pressura;
+  /* text-decoration: none; */
+  margin-top: 2%;
+}
+
+.yapi{
+  margin-left: 4%;
+}
+
+a {
+  color: rgba(230, 82, 68) !important;
+  text-decoration: none !important;
+}
 @media only screen and (max-width: 600px) {
   .blogContentText {
     font-family: "GT Pressura";
