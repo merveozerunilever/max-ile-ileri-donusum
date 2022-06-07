@@ -1,4 +1,4 @@
-import { Card, CardGroup, Carousel } from "react-bootstrap";
+import { Card, CardGroup, Carousel, Breadcrumb } from "react-bootstrap";
 import "./KesfetStyle.css";
 import {
   ArtistsText,
@@ -25,6 +25,13 @@ function Kesfet() {
   return (
     <>
 <DocumentMeta {...meta} />
+<div className="yapi">
+<Breadcrumb className="firstItem">
+  <Breadcrumb.Item href="/">Manifesto</Breadcrumb.Item>
+  <Breadcrumb.Item active>Keşfet</Breadcrumb.Item>
+ 
+</Breadcrumb>
+</div>
       <div className="manifestoKesfet">
         <div id="manifestoTagPage">{manifestoTag}</div>
         <div id="manifestoKesfet">{manifestoText}</div>
