@@ -128,6 +128,18 @@ a {
   text-decoration: none !important;
 }
 @media only screen and (max-width: 600px) {
+    .breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0% !important;
+    margin-bottom: 0% !important;
+    list-style: none;
+    font-family: GT Pressura;
+    /* text-decoration: none; */
+    margin-top: 2%;
+      margin-bottom: 1%
+    font-size: 14px;
+}
   .blogContentText {
     font-family: "GT Pressura";
     width: 98%;
