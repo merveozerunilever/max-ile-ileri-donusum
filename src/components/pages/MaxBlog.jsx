@@ -1,5 +1,5 @@
 import "./MaxBlogStyle.css";
-import { Carousel, Card, CardGroup, Button } from "react-bootstrap";
+import { Carousel, Card, CardGroup, Button, Breadcrumb } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import DocumentMeta from "react-document-meta";
 
@@ -119,6 +119,12 @@ function MaxBlog() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+      <div className="yapi">
+<Breadcrumb className="firstItem">
+  <Breadcrumb.Item href="/">Manifesto</Breadcrumb.Item>
+  <Breadcrumb.Item active>MaxBlog</Breadcrumb.Item>
+</Breadcrumb>
+</div>
       <div className="maxBloglar">
         <div className="bloglar">
           <Card>
