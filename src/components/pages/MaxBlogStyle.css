@@ -58,7 +58,7 @@
   background-color: rgb(230, 82, 68);
   width: 45% !important;
   font-family: "Stick-A-Round";
-  color: white;
+  color: white !important;
   font-size: 36px;
   text-decoration: none;
   border-radius: 9px;
@@ -74,7 +74,7 @@
   background-color: rgb(230, 82, 68);
   width: 35% !important;
   font-family: "Stick-A-Round";
-  color: white;
+  color: white !important;
   font-size: 36px;
   text-decoration: none;
   border-radius: 9px;
