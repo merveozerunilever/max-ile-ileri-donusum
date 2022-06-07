@@ -31,10 +31,24 @@ import {
   manifestoText3,
   downloadText,
 } from "../../constants";
+import DocumentMeta from "react-document-meta";
 
 function Manifesto() {
+
+  const meta = {
+    title: 'Max ile İleri Dönüşüm',
+    description: 'Algida Max ile ileri dönüşüm yolculuğu, dondurma çubuklarının atıktanonlarca fikre nasıl dönüşebilececeği konusunda ilham vermeyi amaçlar! ',
+    canonical: "Self-Canonical",
+    meta: {
+        charset: 'utf-8',
+        name: {
+            keywords: 'react,meta,document,html,tags'
+        }
+    }
+  }
   return (
     <>
+<DocumentMeta {...meta} />
       <div className="banner">
         <img
           id="banner"
