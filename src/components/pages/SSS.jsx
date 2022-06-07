@@ -1,6 +1,7 @@
 import "./sssStyles.css";
 import { sssTitle } from "../../constants";
 import DocumentMeta from "react-document-meta";
+import {Breadcrumb} from "react-bootstrap";
 
 
 function SSS() {
@@ -18,6 +19,13 @@ function SSS() {
   return (
     <>
 <DocumentMeta {...meta} />
+<div className="yapi">
+<Breadcrumb className="firstItem">
+  <Breadcrumb.Item href="/">Manifesto</Breadcrumb.Item>
+  <Breadcrumb.Item active>Sık Sorulan Sorular</Breadcrumb.Item>
+ 
+</Breadcrumb>
+</div>
       <h1 id="sssTitle">{sssTitle}</h1>
 
       <div className="SSS">
