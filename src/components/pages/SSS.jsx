@@ -1,9 +1,23 @@
 import "./sssStyles.css";
 import { sssTitle } from "../../constants";
+import DocumentMeta from "react-document-meta";
+
 
 function SSS() {
+  const meta = {
+    title: 'Sık Sorulan Sorular | Max ile İleri Dönüşüm',
+    description: 'Max ile ileri dönüşüm manifestosu ile ilgili sık sorulan sorulara buradan ulaşabilirsiniz!',
+    canonical: "Self-Canonical",
+    meta: {
+        charset: 'utf-8',
+        name: {
+            keywords: 'react,meta,document,html,tags'
+        }
+    }
+  }
   return (
     <>
+<DocumentMeta {...meta} />
       <h1 id="sssTitle">{sssTitle}</h1>
 
       <div className="SSS">
