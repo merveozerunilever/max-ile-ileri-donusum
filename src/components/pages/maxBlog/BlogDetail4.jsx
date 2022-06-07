@@ -21,9 +21,24 @@ import {
 } from "../../../constants";
 import { Card, CardGroup } from "react-bootstrap";
 
+import DocumentMeta from "react-document-meta";
+
+
 function BlogDetail() {
+  const meta = {
+    title: 'Döngüsel Hareket İle İleri Dönüşüm | Max ile İleri Dönüşüm',
+    description: 'İleri dönüşüm ile ilgi blog yazılarımıza bu ekrandan ulaşabilirsiniz!',
+    canonical: "Self-Canonical",
+    meta: {
+        charset: 'utf-8',
+        name: {
+            keywords: 'react,meta,document,html,tags'
+        }
+    }
+  }
   return (
     <>
+<DocumentMeta {...meta} />
       <Card.Img
         src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/9b1185b21d4242cb97483cf2d2d30787?v=0407e75f"
         alt="Mimari Reenkarnasyon ve İlerİ Dönüşüm"
@@ -88,20 +103,20 @@ function BlogDetail() {
           <a
             href={
               "https://www.re-thinkingthefuture.com/architects-lounge/a318-10-most-creative-adaptive-reuse-projects/"
-            }
+            } target="_blank"
           >
             {" "}
             <li>
               https://www.re-thinkingthefuture.com/architects-lounge/a318-10-most-creative-adaptive-reuse-projects/
             </li>
           </a>
-          <a href={"https://redshift.autodesk.com/architectural-upcycling/"}>
+          <a href={"https://redshift.autodesk.com/architectural-upcycling/"} target="_blank">
             {" "}
             <li>
               https://redshift.autodesk.com/architectural-upcycling//
             </li>{" "}
           </a>
-          <a href={""}>
+          <a href={"https://miniwiz.medium.com/5-examples-of-upcycling-in-architecture-and-how-theyre-changing-the-business-ff90729105d8/"} target="_blank">
             {" "}
             <li>
               https://miniwiz.medium.com/5-examples-of-upcycling-in-architecture-and-how-theyre-changing-the-business-ff90729105d8/
