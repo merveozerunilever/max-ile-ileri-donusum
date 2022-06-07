@@ -19,7 +19,7 @@ import {
   ipucu,
   RuhunuArayanYapılar,
 } from "../../../constants";
-import { Card, CardGroup } from "react-bootstrap";
+import { Card, CardGroup, Breadcrumb } from "react-bootstrap";
 
 import DocumentMeta from "react-document-meta";
 
@@ -43,6 +43,13 @@ function BlogDetail() {
         src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/9b1185b21d4242cb97483cf2d2d30787?v=0407e75f"
         alt="Mimari Reenkarnasyon ve İlerİ Dönüşüm"
       />
+                      <div className="yapi">
+<Breadcrumb className="firstItem">
+  <Breadcrumb.Item href="/">Manifesto</Breadcrumb.Item>
+  <Breadcrumb.Item href="/max-blog">MaxBlog</Breadcrumb.Item>
+  <Breadcrumb.Item active>Mimari Reenkarnasyon ve İlerİ Dönüşüm</Breadcrumb.Item>
+</Breadcrumb>
+</div>
       <h1 className="blogTitleText">Mimari Reenkarnasyon ve İlerİ Dönüşüm</h1>
       <div className="blogBanner">
         <div className="blogContentText">{blogContentText4}</div>
