@@ -1,10 +1,24 @@
 import "./MaxBlogStyle.css";
 import { Carousel, Card, CardGroup, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import DocumentMeta from "react-document-meta";
+
 
 function MaxBlog() {
+  const meta = {
+    title: 'Max Blog | Max ile İleri Dönüşüm',
+    description: 'İleri dönüşüm ile ilgi blog yazılarımıza bu ekrandan ulaşabilirsiniz!',
+    canonical: "Self-Canonical",
+    meta: {
+        charset: 'utf-8',
+        name: {
+            keywords: 'react,meta,document,html,tags'
+        }
+    }
+  }
   return (
     <>
+<DocumentMeta {...meta} />
       <Carousel className="guncelBlog">
         <Carousel.Item>
           <img
