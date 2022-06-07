@@ -1,4 +1,4 @@
-import { Card, CardGroup } from "react-bootstrap";
+import { Card, CardGroup, Breadcrumb } from "react-bootstrap";
 import "./FikirKutuphanesi.css";
 import {
   downloadText,
@@ -27,6 +27,13 @@ function FikirKutuphanesi() {
   return (
     <>
 <DocumentMeta {...meta} />
+<div className="yapi">
+<Breadcrumb className="firstItem">
+  <Breadcrumb.Item href="/">Manifesto</Breadcrumb.Item>
+  <Breadcrumb.Item active>Fikir Kütüphanesi</Breadcrumb.Item>
+ 
+</Breadcrumb>
+</div>
       <div className="fikirHeader">
         <h2 id="fikirKutuphanesiTabTitle">{FikirKutuphanesiTitle}</h2>
         <div className="fikirKutuphanesiTabText"> {FikirKutuphanesiText} </div>
