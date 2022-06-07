@@ -6,9 +6,24 @@ import {
   blogContentText33,
 } from "../../../constants";
 import { Card } from "react-bootstrap";
+import DocumentMeta from "react-document-meta";
+
+
 function BlogDetail() {
+  const meta = {
+    title: 'Döngüsel Hareket İle İleri Dönüşüm | Max ile İleri Dönüşüm',
+    description: 'İleri dönüşüm ile ilgi blog yazılarımıza bu ekrandan ulaşabilirsiniz!',
+    canonical: "Self-Canonical",
+    meta: {
+        charset: 'utf-8',
+        name: {
+            keywords: 'react,meta,document,html,tags'
+        }
+    }
+  }
   return (
     <>
+<DocumentMeta {...meta} />
       <Card className="guncelBlog">
         <Card.Img
           src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/5af075c45ce647d2b8906daa012b8287?v=ca615880"
@@ -51,14 +66,14 @@ function BlogDetail() {
           <a
             href={
               "https://tcocertified.com/circular-economy/?utm_term=upcycling&utm_campaign=Circular+-+spring2020&utm_source=adwords&utm_medium=ppc&hsa_acc=6451387163&hsa_cam=9512205992&hsa_grp=97392443259&hsa_ad=421501608879&hsa_src=g&hsa_tgt=kwd-299156101615&hsa_kw=upcycling&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=CjwKCAjw7IeUBhBbEiwADhiEMVALw-G7ei8Oi8Bv-mm1IY4DwF_dA6WUtE5Fo2vTCw1LJaWQC-3LMBoCyjcQAvD_BwE "
-            }
+            } target="_blank"
           >
             {" "}
             <li>
               https://tcocertified.com/circular-economy/?utm_term=upcycling&utm_campaign=Circular+-+spring2020&utm_source=adwords&utm_medium=ppc&hsa_acc=6451387163&hsa_cam=9512205992&hsa_grp=97392443259&hsa_ad=421501608879&hsa_src=g&hsa_tgt=kwd-299156101615&hsa_kw=upcycling&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=CjwKCAjw7IeUBhBbEiwADhiEMVALw-G7ei8Oi8Bv-mm1IY4DwF_dA6WUtE5Fo2vTCw1LJaWQC-3LMBoCyjcQAvD_BwE{" "}
             </li>
           </a>
-          <a href={"https://www.habitat.org/stories/what-is-upcycling"}>
+          <a href={"https://www.habitat.org/stories/what-is-upcycling"} target="_blank">
             {" "}
             <li>https://www.habitat.org/stories/what-is-upcycling/</li>{" "}
           </a>
