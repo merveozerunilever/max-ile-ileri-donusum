@@ -8,7 +8,7 @@ import {
   blogContentText25,
   blogContentText26,
 } from "../../../constants";
-import { Card } from "react-bootstrap";
+import { Card, Breadcrumb } from "react-bootstrap";
 import DocumentMeta from "react-document-meta";
 
 
@@ -33,6 +33,13 @@ function BlogDetail() {
           alt="Oynamanın Geleceği"
         />
       </Card>
+      <div className="yapi">
+<Breadcrumb className="firstItem">
+  <Breadcrumb.Item href="/">Manifesto</Breadcrumb.Item>
+  <Breadcrumb.Item href="/max-blog">MaxBlog</Breadcrumb.Item>
+  <Breadcrumb.Item active>Oynamanın Geleceği</Breadcrumb.Item>
+</Breadcrumb>
+</div>
       <h1 className="blogTitleText">Oynamanın Geleceğİ</h1>
       <div className="blogBanner">
         <div className="blogContentText">{blogContentText2}</div>
