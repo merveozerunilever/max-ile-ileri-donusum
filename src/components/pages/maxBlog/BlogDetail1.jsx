@@ -7,10 +7,24 @@ import {
 } from "../../../constants";
 import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import DocumentMeta from "react-document-meta";
+
 
 function BlogDetail() {
+  const meta = {
+    title: 'Dünyadan Yaratıcı İleri Dönüşüm Örnekleri | Max ile İleri Dönüşüm',
+    description: 'İleri dönüşüm ile ilgi blog yazılarımıza bu ekrandan ulaşabilirsiniz!',
+    canonical: "Self-Canonical",
+    meta: {
+        charset: 'utf-8',
+        name: {
+            keywords: 'react,meta,document,html,tags'
+        }
+    }
+  }
   return (
     <>
+<DocumentMeta {...meta} />
       <Card className="guncelBlog">
         <Card.Img
           src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/70ff0055166d45cf898371cb8f3c838f?v=3360007d"
@@ -107,41 +121,41 @@ function BlogDetail() {
       <ul className="kaynakca">
         Kaynakça
         <ul>
-          <a href={"https://hila.com.au/ "}>
+          <a href={"https://hila.com.au/ "} target="_blank">
             {" "}
             <li>https://hila.com.au/ </li>
           </a>
-          <a href={"https://www.instagram.com/hilaupcycle"}>
+          <a href={"https://www.instagram.com/hilaupcycle"} target="_blank">
             {" "}
             <li>https://www.instagram.com/hilaupcycle/</li>{" "}
           </a>
-          <a href={"https://www.redeasta.com.br/cases/en-netza"}>
+          <a href={"https://www.redeasta.com.br/cases/en-netza"} target="_blank">
             {" "}
             <li>https://www.redeasta.com.br/cases/en-netza/</li>{" "}
           </a>
-          <a href={"https://www.redeasta.com.br/en/what-we-do"}>
+          <a href={"https://www.redeasta.com.br/en/what-we-do"} target="_blank">
             {" "}
             <li>https://www.redeasta.com.br/en/what-we-do/</li>{" "}
           </a>
           <a
             href={
               "https://www.deutschland.de/en/topic/environment/upcycling-creative-examples-from-germany"
-            }
+            } target="_blank"
           >
             {" "}
             <li>
               https://www.deutschland.de/en/topic/environment/upcycling-creative-examples-from-germany/
             </li>{" "}
           </a>
-          <a href={"https://karolchicks.com/fussball-ucycling"}>
+          <a href={"https://karolchicks.com/fussball-ucycling"} target="_blank">
             {" "}
             <li>https://karolchicks.com/fussball-ucycling/</li>{" "}
           </a>
-          <a href={"https://www.kulturwest.de/inhalt/neue-leben/"}>
+          <a href={"https://www.kulturwest.de/inhalt/neue-leben/"} target="_blank">
             {" "}
             <li>https://www.kulturwest.de/inhalt/neue-leben//</li>{" "}
           </a>
-          <a href={"https://karolchicks.com/fussball-ucycling/"}>
+          <a href={"https://karolchicks.com/fussball-ucycling/"} target="_blank">
             {" "}
             <li>https://karolchicks.com/fussball-ucycling//</li>{" "}
           </a>
