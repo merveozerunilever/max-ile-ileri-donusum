@@ -9,9 +9,24 @@ import {
   blogContentText26,
 } from "../../../constants";
 import { Card } from "react-bootstrap";
+import DocumentMeta from "react-document-meta";
+
+
 function BlogDetail() {
+  const meta = {
+    title: 'Oynamanın Geleceği | Max ile İleri Dönüşüm',
+    description: 'İleri dönüşüm ile ilgi blog yazılarımıza bu ekrandan ulaşabilirsiniz!',
+    canonical: "Self-Canonical",
+    meta: {
+        charset: 'utf-8',
+        name: {
+            keywords: 'react,meta,document,html,tags'
+        }
+    }
+  }
   return (
     <>
+<DocumentMeta {...meta} />
       <Card className="guncelBlog">
         <Card.Img
           src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/a3d0358361924f7588a56b36fa14d1ae?v=12ad425d"
@@ -39,7 +54,7 @@ function BlogDetail() {
             <a
               href={
                 "https://www.livemint.com/industry/manufacturing/the-growing-lure-of-upcycled-products-11649955773521.html "
-              }
+              } target="_blank"
             >
               {" "}
               <li>
@@ -49,14 +64,14 @@ function BlogDetail() {
             <a
               href={
                 "https://playgroundideas.org/gpabuilders/anthill-creations/"
-              }
+              } target="_blank"
             >
               {" "}
               <li>
                 https://playgroundideas.org/gpabuilders/anthill-creations//
               </li>{" "}
             </a>
-            <a href={"https://anthillcreations.org/"}>
+            <a href={"https://anthillcreations.org/"} target="_blank">
               {" "}
               <li>https://anthillcreations.org//</li>{" "}
             </a>
