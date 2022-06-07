@@ -7,10 +7,24 @@ import {
   manifestoText,
 } from "../../constants";
 import { AiFillInstagram } from "react-icons/ai";
+import DocumentMeta from "react-document-meta";
+
 
 function Kesfet() {
+  const meta = {
+    title: 'Keşfet | Max ile İleri Dönüşüm',
+    description: 'Max ile İleri Dönüşüm yolculuğundaki birçok fikir, proje sanatçılarının eserleri ve sizden gelenler sayfamızda!',
+    canonical: "Self-Canonical",
+    meta: {
+        charset: 'utf-8',
+        name: {
+            keywords: 'react,meta,document,html,tags'
+        }
+    }
+  }
   return (
     <>
+<DocumentMeta {...meta} />
       <div className="manifestoKesfet">
         <div id="manifestoTagPage">{manifestoTag}</div>
         <div id="manifestoKesfet">{manifestoText}</div>
