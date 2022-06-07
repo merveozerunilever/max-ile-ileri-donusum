@@ -10,9 +10,23 @@ import CubuktanKus from "./docs/CubuktanKus.pdf";
 import CubuktanKalemlik from "./docs/CubuktanKalemlik.pdf";
 import CubuktanMama from "./docs/CubuktanMama.pdf";
 import { FikirKutuphanesiTitle } from "../../constants";
+import DocumentMeta from "react-document-meta";
+
 function FikirKutuphanesi() {
+  const meta = {
+    title: 'Fikir Kütüphanesi | Max ile İleri Dönüşüm',
+    description: 'Max ile İleri Dönüşüm yolculuğundaki birçok fikre Fikir Kütüphanesi sayfamızdan ulaşabilirsiniz!',
+    canonical: "Self-Canonical",
+    meta: {
+        charset: 'utf-8',
+        name: {
+            keywords: 'react,meta,document,html,tags'
+        }
+    }
+  }
   return (
     <>
+<DocumentMeta {...meta} />
       <div className="fikirHeader">
         <h2 id="fikirKutuphanesiTabTitle">{FikirKutuphanesiTitle}</h2>
         <div className="fikirKutuphanesiTabText"> {FikirKutuphanesiText} </div>
@@ -37,8 +51,7 @@ function FikirKutuphanesi() {
           <a
             href={CubuktanKus}
             target="_blank"
-            rel="noopener noreferrer"
-            download
+        
           >
             <button className="downloadButton">{downloadText}</button>
           </a>
@@ -57,8 +70,7 @@ function FikirKutuphanesi() {
           <a
             href={CubuktanMama}
             target="_blank"
-            rel="noopener noreferrer"
-            download
+        
           >
             <button className="downloadButton">{downloadText}</button>
           </a>
@@ -77,8 +89,7 @@ function FikirKutuphanesi() {
           <a
             href={CubuktanKalemlik}
             target="_blank"
-            rel="noopener noreferrer"
-            download
+           
           >
             <button className="downloadButton">{downloadText}</button>
           </a>
