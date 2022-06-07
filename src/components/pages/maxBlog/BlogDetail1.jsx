@@ -36,7 +36,7 @@ function BlogDetail() {
 <Breadcrumb className="firstItem">
   <Breadcrumb.Item href="/">Manifesto</Breadcrumb.Item>
   <Breadcrumb.Item href="/max-blog">MaxBlog</Breadcrumb.Item>
-  <Breadcrumb.Item active>Dünyanın Yaratıcı İleri Dönüşüm Örnekleri</Breadcrumb.Item>
+  <Breadcrumb.Item active>Dünyadan Yaratıcı İleri Dönüşüm Örnekleri</Breadcrumb.Item>
 </Breadcrumb>
 </div>
       <h1 className="blogTitleText">
