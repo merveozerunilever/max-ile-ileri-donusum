@@ -131,8 +131,7 @@ function Manifesto() {
           <a
             href={CubuktanKus}
             target="_blank"
-            rel="noopener noreferrer"
-            download
+          
           >
             <button className="downloadButton">{downloadText}</button>
           </a>
@@ -151,8 +150,7 @@ function Manifesto() {
           <a
             href={CubuktanMama}
             target="_blank"
-            rel="noopener noreferrer"
-            download
+           
           >
             <button className="downloadButton">{downloadText}</button>
           </a>
@@ -171,8 +169,7 @@ function Manifesto() {
           <a
             href={CubuktanKalemlik}
             target="_blank"
-            rel="noopener noreferrer"
-            download
+        
           >
             <button className="downloadButton">{downloadText}</button>
           </a>
