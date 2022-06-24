@@ -105,12 +105,32 @@ function FikirKutuphanesi() {
       <CardGroup></CardGroup>
       <div id="fikirKutuphanesiTabTitle">VİDEOLAR</div>
 <div className="videos">
-<div className="embed-responsive embed-responsive-16by9">
+<div className="">
   <div className="yt">
       <iframe title="Embeds Page" className="embed-responsive-item" src="https://www.youtube.com/embed/gvXBM7Q-7JQ"
         allowfullscreen></iframe>
         </div>
     </div>  
+</div>
+<div className="vid">
+    <div className="embed-responsive embed-responsive-16by9">
+    <iframe title="Embeds Page" className="embed-responsive-item" src="https://www.youtube.com/embed/sKWKUDn0jWg"
+        allowfullscreen></iframe>
+              <h1 className="fikirTabTitleText">Çubukla Kuş Yuvası Yapımı</h1>
+
+    </div>
+    <div className="embed-responsive embed-responsive-16by9">
+    <iframe title="Embeds Page" className="embed-responsive-item" src="https://www.youtube.com/embed/E9xCD6tfUyQ"
+        allowfullscreen></iframe>
+            <h1 className="fikirTabTitleText">Çubukla Mama Kabı Yapımı</h1>
+
+    </div>
+    <div className="embed-responsive embed-responsive-16by9">
+    <iframe title="Embeds Page" className="embed-responsive-item" src="https://www.youtube.com/embed/6j3wD8CsFl0"
+        allowfullscreen></iframe>
+            <h1 className="fikirTabTitleText">Çubukla Kalemlik Yapımı</h1>
+
+  </div>
 </div>
 
     </>
