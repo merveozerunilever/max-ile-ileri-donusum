@@ -10,15 +10,15 @@ function MaxBlog() {
     description: 'İleri dönüşüm ile ilgi blog yazılarımıza bu ekrandan ulaşabilirsiniz!',
     canonical: "Self-Canonical",
     meta: {
-        charset: 'utf-8',
-        name: {
-            keywords: 'react,meta,document,html,tags'
-        }
+      charset: 'utf-8',
+      name: {
+        keywords: 'react,meta,document,html,tags'
+      }
     }
   }
   return (
     <>
-<DocumentMeta {...meta} />
+      <DocumentMeta {...meta} />
       <Carousel className="guncelBlog">
         <Carousel.Item>
           <img
@@ -120,22 +120,104 @@ function MaxBlog() {
         </Carousel.Item>
       </Carousel>
       <div className="yapi">
-<Breadcrumb className="firstItem">
-  <Breadcrumb.Item href="/">Manifesto</Breadcrumb.Item>
-  <Breadcrumb.Item active>MaxBlog</Breadcrumb.Item>
-</Breadcrumb>
-</div>
+        <Breadcrumb className="firstItem">
+          <Breadcrumb.Item href="/">Manifesto</Breadcrumb.Item>
+          <Breadcrumb.Item active>MaxBlog</Breadcrumb.Item>
+        </Breadcrumb>
+      </div>
       <div className="maxBloglar">
         <div className="bloglar">
+          <Card className="maxblogCard">
+            <Card.Body className="maxBody">
+              <Card.Title className="guncelBlogTitle">
+                Anlatmanın 50 Yolu: İçerİk İleri Dönüşümü
+              </Card.Title>
+
+              <Card.Text className="guncelBlogText">
+              
+                İnsanlığın ortak bilgi birikiminin tarihi çok eskilere dayansa da, bilgiye erişimimin hiçbir dönemde bulunduğumuz çağdaki kadar sınırsız olmadığı konusunda hemfikiriz. İnternetin icadından başlayarak tüm teknolojik gelişmeler ile bugüne kadar uzanan bu besleyici süreç, içerik tüketim alışkanlıklarımızın sık sık şekil değiştirmesine yol açıyor.
+              </Card.Text>
+              <a href={"/icerik-ileri-donusumu"} className="devaminiOku">
+                {" "}
+                devamını oku
+              </a>
+            </Card.Body>
+          </Card>
           <Card>
-          
-              <img
-                variant="top"
-                className="blogGorsel"
-                src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/bcac9dccd1fd4050af93ceaf9d0fedb9?v=d8087cf4"
-                alt="Dünyadan Yaratıcı İleri Dönüşüm Örnekleri"
-              />{" "}
-           
+            <img
+              variant="top"
+              className="blogGorsel"
+              src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/e9db9b6d2f084febb6e665c2acee31aa?v=a68defdc"
+              alt="Anlatmanın 50 Yolu: İçerik İleri Dönüşümü"
+            />{" "}
+          </Card>
+        </div>
+        <div className="bloglar">
+          <Card className="maxblogCard">
+            <img
+              className="blogGorsel"
+              variant="top"
+              src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/8c9ad56945764e3ab27d010c1bc6b384?v=6e630831"
+              alt="İleri Dönüşüm Hayatın Kıyısında Kalmışlara Nasıl Işık Oluyor"
+            />{" "}
+          </Card>
+          <Card>
+            <Card.Body className="maxBody">
+              <Card.Title className="guncelBlogTitle">
+                {" "}
+                İlerİ Dönüşüm Hayatın Kıyısında Kalmışlara Nasıl ışık Oluyor
+              </Card.Title>
+              <Card.Text className="guncelBlogText">
+                Hayatımızda profesyonel kariyerlerimizin haricinde ihtiyaç sahibi insanlara daha yakın olabilmek, onların potansiyellerini açığa çıkarmak için çalışmak ve toplumsal döngüde daha belirgin bir rol almalarını sağlamak için çoğumuz bir şekilde gönüllülük esasıyla çalışan sivil toplum kuruluşlarına dahil oluyoruz. 
+              </Card.Text>
+              <a
+                href={"/ileri-donusum-hayatin-kiyisinda-kalmislara-nasil-isik-oluyor"}
+                className="devaminiOku"
+              >
+                {" "}
+                devamını oku
+              </a>
+            </Card.Body>
+          </Card>
+        </div>
+        <div className="bloglar">
+          <Card className="maxblogCard">
+            <Card.Body className="maxBody">
+              <Card.Title className="guncelBlogTitle">
+                {" "}
+                Yine Yenİ Yeniden: İleri Dönüşüm Kavramları
+              </Card.Title>
+              <Card.Text className="guncelBlogText">
+              İleri dönüşüm pratikleriyle atık maddelerin veya istenmeyen malzemelerin kullanılabilir bir ürüne dönüştürülerek değer elde edilmesi dünya çapında bir kazanım haline geldi. 
+              </Card.Text>
+              <a
+                href={"/ileri-donusum-kavramlari"}
+                className="devaminiOku"
+              >
+                {" "}
+                devamını oku
+              </a>{" "}
+            </Card.Body>
+          </Card>
+          <Card>
+            <img
+              variant="top"
+              className="blogGorsel"
+              src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/7a99cc7a1b8d4a26af51eb07935934db?v=37523d41"
+              alt="Yine Yeni Yeniden: İleri Dönüşüm Kavramları "
+            />{" "}
+          </Card>
+        </div>
+        <div className="bloglar">
+          <Card>
+
+            <img
+              variant="top"
+              className="blogGorsel"
+              src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/bcac9dccd1fd4050af93ceaf9d0fedb9?v=d8087cf4"
+              alt="Dünyadan Yaratıcı İleri Dönüşüm Örnekleri"
+            />{" "}
+
           </Card>
           <Card className="maxblogCard">
             <Card.Body className="maxBody">
@@ -182,22 +264,22 @@ function MaxBlog() {
             </Card.Body>
           </Card>
           <Card>
-              <img
-                variant="top"
-                className="blogGorsel"
-                src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/a3ecddffb78d4dfe814363e776e4f43b?v=e89da5c3"
-                alt="Oynamanın Geleceği"
-              />{" "}
+            <img
+              variant="top"
+              className="blogGorsel"
+              src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/a3ecddffb78d4dfe814363e776e4f43b?v=e89da5c3"
+              alt="Oynamanın Geleceği"
+            />{" "}
           </Card>
         </div>
         <div className="bloglar">
           <Card className="maxblogCard">
-              <img
-                className="blogGorsel"
-                variant="top"
-                src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/e27307599b8348e3aae0acfecc097444?v=9146334e"
-                alt="Döngüsel Hareket ile İleri Dönüşüm"
-              />{" "}
+            <img
+              className="blogGorsel"
+              variant="top"
+              src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/e27307599b8348e3aae0acfecc097444?v=9146334e"
+              alt="Döngüsel Hareket ile İleri Dönüşüm"
+            />{" "}
           </Card>
           <Card>
             <Card.Body className="maxBody">
@@ -246,12 +328,12 @@ function MaxBlog() {
             </Card.Body>
           </Card>
           <Card>
-              <img
-                variant="top"
-                className="blogGorsel"
-                src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/3b1a770ef7b3438cbf153f46c5cbfb88?v=20f7f2ba"
-                alt="Mimari Reenkarnasyon"
-              />{" "}
+            <img
+              variant="top"
+              className="blogGorsel"
+              src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/3b1a770ef7b3438cbf153f46c5cbfb88?v=20f7f2ba"
+              alt="Mimari Reenkarnasyon"
+            />{" "}
           </Card>
         </div>
 
