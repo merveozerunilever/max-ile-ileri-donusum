@@ -120,7 +120,7 @@ function FikirKutuphanesi() {
 
     </div>
     <div className="embed-responsive embed-responsive-16by9">
-    <iframe title="Embeds Page" className="embed-responsive-item" src="https://www.youtube.com/embed/E9xCD6tfUyQ"
+    <iframe title="Embeds Page" className="embed-responsive-item" src="https://www.youtube.com/embed/6j3wD8CsFl0"
         allowfullscreen></iframe>
             <h1 className="fikirTabTitleText">Çubukla Mama Kabı Yapımı</h1>
 

@@ -23,20 +23,18 @@ function MaxBlog() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/70ff0055166d45cf898371cb8f3c838f?v=3360007d"
+            src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/72ca03da76d3412cbb77ac54568a9eb4?v=b35bcfe5"
             alt="Blog-1"
           />
           <Carousel.Caption>
             <Card.Title className="guncelTitle">
-              DÜNYADAN İLERİ DÖNÜŞÜM ÖRNEKLERİ
-            </Card.Title>
+            Anlatmanın 50 Yolu: İçerİk İleri Dönüşümü
+                        </Card.Title>
             <Card.Text className="guncelText">
-              Nüfusu giderek fazlalaşan ve bunun doğal bir sonucu olarak
-              kaynakların yetersiz gelmeye başladığı küresel dünyamızın
-              sürdürülebilirliği fazlasıyla önemli bir hal kazandı.
+            İnsanlığın ortak bilgi birikiminin tarihi çok eskilere dayansa da, bilgiye erişimimin hiçbir dönemde bulunduğumuz çağdaki kadar sınırsız olmadığı konusunda hemfikiriz.
             </Card.Text>
             <a
-              href={"/max-blog-dunyadan-yaratici-ileri-donusum-ornekleri"}
+              href={"/icerik-ileri-donusumu"}
               className="devaminiOkuGuncel"
             >
               {" "}
@@ -47,18 +45,17 @@ function MaxBlog() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/a3d0358361924f7588a56b36fa14d1ae?v=12ad425d"
+            src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/b2ec389f684141c6822fe1c70b22cece?v=3f0363b2"
             alt="Blog-2"
           />
 
           <Carousel.Caption>
-            <Card.Title className="guncelTitle">Oynamanın Geleceğİ</Card.Title>
+            <Card.Title className="guncelTitle">İlerİ Dönüşüm Hayatın Kıyısında Kalmışlara Nasıl ışık Oluyor</Card.Title>
             <Card.Text className="guncelText">
-              Jenerasyon X’ten Y’ye, Y’den Z’ye geçerken hayatlarımızda birçok
-              değişiklik gerçekleşti.
+            Hayatımızda profesyonel kariyerlerimizin haricinde ihtiyaç sahibi insanlara daha yakın olabilmek, onların potansiyellerini açığa çıkarmak için
             </Card.Text>
             <a
-              href={"/max-blog-oynamanin-gelecegi"}
+              href={"/ileri-donusum-hayatin-kiyisinda-kalmislara-nasil-isik-oluyor"}
               className="devaminiOkuGuncel"
             >
               {" "}
@@ -69,22 +66,20 @@ function MaxBlog() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/5af075c45ce647d2b8906daa012b8287?v=ca615880"
+            src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/6952ff36c4394946a76cde6946464610?v=36fd9196"
             alt="Blog-3"
           />
 
           <Carousel.Caption>
             <Card.Title className="guncelTitle">
               {" "}
-              Döngüsel Hareket İle İlerİ Dönüşüm
+              Yine Yenİ Yeniden: İleri Dönüşüm Kavramları
             </Card.Title>
             <Card.Text className="guncelText">
-              Gezegen nüfusu artıkça ve ekonomik refah insanlar arasında
-              paylaştırıldıkça doğal kaynak rezervleri bir noktadan sonra
-              tehlike altına giriyor.
+            İleri dönüşüm pratikleriyle atık maddelerin veya istenmeyen malzemelerin kullanılabilir bir ürüne dönüştürülerek değer elde edilmesi dünya çapında bir kazanım haline geldi. 
             </Card.Text>
             <a
-              href={"/max-blog-dongusel-hareket-ile-ileri-donusum"}
+              href={"/ileri-donusum-kavramlari"}
               className="devaminiOkuGuncel"
             >
               {" "}
@@ -92,7 +87,7 @@ function MaxBlog() {
             </a>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
+        {/* <Carousel.Item>
           <img
             className="d-block w-100"
             src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/9b1185b21d4242cb97483cf2d2d30787?v=0407e75f"
@@ -117,7 +112,7 @@ function MaxBlog() {
               devamını oku
             </a>
           </Carousel.Caption>
-        </Carousel.Item>
+        </Carousel.Item> */}
       </Carousel>
       <div className="yapi">
         <Breadcrumb className="firstItem">
@@ -147,7 +142,7 @@ function MaxBlog() {
             <img
               variant="top"
               className="blogGorsel"
-              src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/e9db9b6d2f084febb6e665c2acee31aa?v=a68defdc"
+              src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/ccaea3237f554f41ac3a21c8e9293e12?v=e6e94108"
               alt="Anlatmanın 50 Yolu: İçerik İleri Dönüşümü"
             />{" "}
           </Card>
@@ -157,7 +152,7 @@ function MaxBlog() {
             <img
               className="blogGorsel"
               variant="top"
-              src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/8c9ad56945764e3ab27d010c1bc6b384?v=6e630831"
+              src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/cdc2af009cda4b069d8fbf700b24abae?v=d35d4ef7"
               alt="İleri Dönüşüm Hayatın Kıyısında Kalmışlara Nasıl Işık Oluyor"
             />{" "}
           </Card>
@@ -203,7 +198,7 @@ function MaxBlog() {
             <img
               variant="top"
               className="blogGorsel"
-              src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/7a99cc7a1b8d4a26af51eb07935934db?v=37523d41"
+              src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/db865f1bf38a41aea14fe02d6d66dd63?v=d7e1e8a1"
               alt="Yine Yeni Yeniden: İleri Dönüşüm Kavramları "
             />{" "}
           </Card>
