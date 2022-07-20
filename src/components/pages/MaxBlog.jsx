@@ -30,7 +30,7 @@ function MaxBlog() {
             <Carousel.Caption>
               <Card.Title className="guncelTitle">
                 {" "}
-                İlerİ Dönüşümde Aktiflik - Spor x İlerİ Dönüşüm              </Card.Title>
+                İlerİ Dönüşümde Aktiflİk - Spor x İlerİ Dönüşüm              </Card.Title>
         
               <Card.Text className="guncelText">
                   İnsanlığın ortak bilgi birikiminin tarihi çok eskilere dayansa da, bilgiye erişimimin hiçbir dönemde bulunduğumuz çağdaki kadar sınırsız olmadığı konusunda hemfikiriz.
@@ -52,7 +52,7 @@ function MaxBlog() {
           />
           <Carousel.Caption>
             <Card.Title className="guncelTitle">
-            Mutfaktaki Yemek Artıklarının İleri Dönüşümü                        </Card.Title>
+            Mutfaktaki Yemek Artıklarının İlerİ Dönüşümü                        </Card.Title>
             <Card.Text className="guncelText">
             Yemek öğünleri günlük yaşamımızın büyük bir kısmı oluşturuyor. Kimilerimizin sabah, öğle, akşam rutinleri varken kimilerimiz minik ara öğünlerle kendini ödüllendirebiliyor. 
             </Card.Text>
