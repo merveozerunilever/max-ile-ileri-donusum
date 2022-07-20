@@ -20,21 +20,44 @@ function MaxBlog() {
     <>
       <DocumentMeta {...meta} />
       <Carousel className="guncelBlog">
+           <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/2233615823d2475bafa38ac4ff56283a?v=c46fcdab"
+              alt="İleri Dönüşümde Aktiflik - Spor x İleri Dönüşüm"
+            />
+        
+            <Carousel.Caption>
+              <Card.Title className="guncelTitle">
+                {" "}
+                İlerİ Dönüşümde Aktiflik - Spor x İlerİ Dönüşüm              </Card.Title>
+        
+              <Card.Text className="guncelText">
+                  İnsanlığın ortak bilgi birikiminin tarihi çok eskilere dayansa da, bilgiye erişimimin hiçbir dönemde bulunduğumuz çağdaki kadar sınırsız olmadığı konusunda hemfikiriz.
+              </Card.Text>
+              <a
+                href={"/icerik-ileri-donusumu"}
+                className="devaminiOkuGuncel"
+              >
+                {" "}
+                devamını oku
+              </a>
+            </Carousel.Caption>
+          </Carousel.Item> 
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/72ca03da76d3412cbb77ac54568a9eb4?v=b35bcfe5"
-            alt="Blog-1"
+            src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/be47246c1dd442ad8df1727946c6dd7c?v=7a9668b3"
+            alt="Mutfaktaki Yemek Artıklarının İleri Dönüşümü"
           />
           <Carousel.Caption>
             <Card.Title className="guncelTitle">
-            Anlatmanın 50 Yolu: İçerİk İleri Dönüşümü
-                        </Card.Title>
+            Mutfaktaki Yemek Artıklarının İleri Dönüşümü                        </Card.Title>
             <Card.Text className="guncelText">
-            İnsanlığın ortak bilgi birikiminin tarihi çok eskilere dayansa da, bilgiye erişimimin hiçbir dönemde bulunduğumuz çağdaki kadar sınırsız olmadığı konusunda hemfikiriz.
+            Yemek öğünleri günlük yaşamımızın büyük bir kısmı oluşturuyor. Kimilerimizin sabah, öğle, akşam rutinleri varken kimilerimiz minik ara öğünlerle kendini ödüllendirebiliyor. 
             </Card.Text>
             <a
-              href={"/icerik-ileri-donusumu"}
+              href={"/mutfaktaki-yemek-artiklarinin-ileri-donusumu"}
               className="devaminiOkuGuncel"
             >
               {" "}
@@ -45,17 +68,17 @@ function MaxBlog() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/b2ec389f684141c6822fe1c70b22cece?v=3f0363b2"
-            alt="Blog-2"
+            src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/6051b3cd55004617b349c996c1455d15?v=d4153eaf"
+            alt="Ruhunu Arayan Kıyafetler: Modada İlerİ Dönüşüm"
           />
 
           <Carousel.Caption>
-            <Card.Title className="guncelTitle">İlerİ Dönüşüm Hayatın Kıyısında Kalmışlara Nasıl ışık Oluyor</Card.Title>
+            <Card.Title className="guncelTitle">Ruhunu Arayan Kıyafetler: Modada İlerİ Dönüşüm </Card.Title>
             <Card.Text className="guncelText">
-            Hayatımızda profesyonel kariyerlerimizin haricinde ihtiyaç sahibi insanlara daha yakın olabilmek, onların potansiyellerini açığa çıkarmak için
+            2000’lere damga vuran düşük bel modasının geri dönüş sinyalleri vermesi bir endişe dalgası yaratsa da, yaratıcı alanların kendini tekrar ettiğinin de bir göstergesi. 
             </Card.Text>
             <a
-              href={"/ileri-donusum-hayatin-kiyisinda-kalmislara-nasil-isik-oluyor"}
+              href={"/ruhunu-arayan-kiyafetler"}
               className="devaminiOkuGuncel"
             >
               {" "}
@@ -87,32 +110,6 @@ function MaxBlog() {
             </a>
           </Carousel.Caption>
         </Carousel.Item>
-        {/* <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/9b1185b21d4242cb97483cf2d2d30787?v=0407e75f"
-            alt="Blog-4"
-          />
-
-          <Carousel.Caption>
-            <Card.Title className="guncelTitle">
-              {" "}
-              Mimari Reenkarnasyon ve İlerİ Dönüşüm
-            </Card.Title>
-
-            <Card.Text className="guncelText">
-              Çevremizde gördüğümüz cansız nesnelerin nefes almıyor oluşu,
-              onların birer ruha sahip olmadığını göstermiyor.
-            </Card.Text>
-            <a
-              href={"/max-blog-dongusel-hareket-ile-ileri-donusum"}
-              className="devaminiOkuGuncel"
-            >
-              {" "}
-              devamını oku
-            </a>
-          </Carousel.Caption>
-        </Carousel.Item> */}
       </Carousel>
       <div className="yapi">
         <Breadcrumb className="firstItem">
@@ -121,6 +118,92 @@ function MaxBlog() {
         </Breadcrumb>
       </div>
       <div className="maxBloglar">
+      <div className="bloglar">
+          <Card className="maxblogCard">
+            <img
+              className="blogGorsel"
+              variant="top"
+              src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/a633faa52852456a8f2a06e207405911?v=6ecf9b6f"
+              alt=" İleri Dönüşümde Aktiflik - Spor x İleri Dönüşüm"
+            />{" "}
+          </Card>
+          <Card>
+            <Card.Body className="maxBody">
+              <Card.Title className="guncelBlogTitle">
+                {" "}
+               
+İlerİ Dönüşümde Aktiflİk - Spor x İlerİ Dönüşüm
+              </Card.Title>
+              <Card.Text className="guncelBlogText">
+              İleri dönüşüm olgusu, bugün birçok farklı disiplin ile iş birliği yapabilen bir noktada bulunuyor. Bu disiplinler arasında dijital içeriklerden tutun da müzik, moda, sanat gibi birçok farklı dal yer almakta. 
+              </Card.Text>
+              <a
+                href={"/ileri-donusumde-aktiflik"}
+                className="devaminiOku"
+              >
+                {" "}
+                devamını oku
+              </a>
+            </Card.Body>
+          </Card>
+        </div>
+        <div className="bloglar">
+          <Card className="maxblogCard">
+            <Card.Body className="maxBody">
+              <Card.Title className="guncelBlogTitle">
+                {" "}
+                Mutfaktaki Yemek Artıklarının İlerİ Dönüşümü              </Card.Title>
+              <Card.Text className="guncelBlogText">
+              Yemek öğünleri günlük yaşamımızın büyük bir kısmı oluşturuyor. Kimilerimizin sabah, öğle, akşam rutinleri varken kimilerimiz minik ara öğünlerle kendini ödüllendirebiliyor. 
+              </Card.Text>
+              <a
+                href={"/mutfaktaki-yemek-artiklarinin-ileri-donusumu"}
+                className="devaminiOku"
+              >
+                {" "}
+                devamını oku
+              </a>{" "}
+            </Card.Body>
+          </Card>
+          <Card>
+            <img
+              variant="top"
+              className="blogGorsel"
+              src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/c7ce9f611a594ab989b368e6391ac2b6?v=00ad16ec"
+              alt="Yine Yeni Yeniden: İleri Dönüşüm Kavramları "
+            />{" "}
+          </Card>
+        </div>
+        <div className="bloglar">
+          <Card>
+
+            <img
+              variant="top"
+              className="blogGorsel"
+              src="https://unlv-p-001-delivery.sitecorecontenthub.cloud/api/public/content/31a9cc7a310e441f94b2208e04a3c9a4?v=dcf0b1aa"
+              alt="   Ruhunu Arayan Kıyafetler: Modada İleri Dönüşüm    "
+            />{" "}
+
+          </Card>
+          <Card className="maxblogCard">
+            <Card.Body className="maxBody">
+              <Card.Title className="guncelBlogTitle">
+                {" "}
+                Ruhunu Arayan Kıyafetler: Modada İleri Dönüşüm              </Card.Title>
+
+              <Card.Text className="guncelBlogText">
+              2000’lere damga vuran düşük bel modasının geri dönüş sinyalleri vermesi bir endişe dalgası yaratsa da, yaratıcı alanların kendini tekrar ettiğinin de bir göstergesi. 
+              </Card.Text>
+              <a
+                href={"/ruhunu-arayan-kiyafetler"}
+                className="devaminiOku"
+              >
+                {" "}
+                devamını oku
+              </a>
+            </Card.Body>
+          </Card>
+        </div>
         <div className="bloglar">
           <Card className="maxblogCard">
             <Card.Body className="maxBody">
