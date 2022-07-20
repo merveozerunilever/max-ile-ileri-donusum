@@ -11,6 +11,9 @@ import BlogDetail4 from "./components/pages/maxBlog/BlogDetail4";
 import BlogDetail5 from "./components/pages/maxBlog/BlogDetail5";
 import BlogDetail6 from "./components/pages/maxBlog/BlogDetail6";
 import BlogDetail7 from "./components/pages/maxBlog/BlogDetail7";
+import BlogDetail8 from "./components/pages/maxBlog/BlogDetail8";
+import BlogDetail9 from "./components/pages/maxBlog/BlogDetail9";
+import BlogDetail10 from "./components/pages/maxBlog/BlogDetail10";
 
 
 export const routes = [
@@ -27,4 +30,7 @@ export const routes = [
   {name: "BlogDetail5", pathname: "/icerik-ileri-donusumu", element: BlogDetail5, isNav:false},
   {name: "BlogDetail6", pathname: "/ileri-donusum-hayatin-kiyisinda-kalmislara-nasil-isik-oluyor", element: BlogDetail6, isNav:false},
   {name: "BlogDetail7", pathname: "/ileri-donusum-kavramlari", element: BlogDetail7, isNav:false},
+  {name: "BlogDetail8", pathname: "/ileri-donusumde-aktiflik", element: BlogDetail8, isNav:false},
+  {name: "BlogDetail9", pathname: "/mutfaktaki-yemek-artiklarinin-ileri-donusumu", element: BlogDetail9, isNav:false},
+  {name: "BlogDetail10", pathname: "/ruhunu-arayan-kiyafetler", element: BlogDetail10, isNav:false},
 ]
