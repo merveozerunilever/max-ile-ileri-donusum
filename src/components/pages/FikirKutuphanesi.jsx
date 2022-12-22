@@ -52,7 +52,7 @@ function FikirKutuphanesi() {
           />
           <Card.Body>
             <Card.Title className="fikirTabTitleText">
-              Çubukla Kuş Yuvası Yapım Kılavuz
+              Çubukla Kuş Yuvası Yapım Kılavuzu
             </Card.Title>
           </Card.Body>
           <a
